@@ -1,12 +1,14 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import QuillTest from "./components/Quill/QuillTest";
 
 function App() {
   return (
     <>
-      <div className="App"></div>
+      <div className="App">
+        <Header />
+        {routes}
+      </div>
     </>
   );
 }
